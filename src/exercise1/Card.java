@@ -11,7 +11,7 @@ package exercise1;
  * @author Paul Bonenfant May 2020
  */
 public class Card {
-
+    
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
 
@@ -21,6 +21,11 @@ public class Card {
      */
     public String getSuit() {
         return suit;
+    }
+
+    public Card(String suit, int value) {
+        this.suit = suit;
+        this.value = value;
     }
 
     /**
